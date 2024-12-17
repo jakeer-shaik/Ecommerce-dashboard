@@ -1,0 +1,21 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #1a1a19;
+}
+
+
+@media (max-width: 768px) {
+  .recent-orders-table-wrapper {
+    overflow-x: auto;
+  }
+
+  .recent-orders-table-wrapper table {
+    width: 100%;
+    min-width: 600px; /* Allows horizontal scrolling */
+  }
+}
